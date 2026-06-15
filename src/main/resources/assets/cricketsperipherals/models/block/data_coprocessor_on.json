@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "up": "cricketsperipherals:block/data_coprocessor_top",
+    "down": "cricketsperipherals:block/data_coprocessor_bottom",
+    "north": "cricketsperipherals:block/data_coprocessor_front_on",
+    "south": "cricketsperipherals:block/data_coprocessor_side",
+    "east": "cricketsperipherals:block/data_coprocessor_side",
+    "west": "cricketsperipherals:block/data_coprocessor_side",
+    "particle": "cricketsperipherals:block/data_coprocessor_side"
+  }
+}

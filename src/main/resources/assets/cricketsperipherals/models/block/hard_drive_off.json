@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "up": "cricketsperipherals:block/hdd_top",
+    "down": "cricketsperipherals:block/hdd_bottom",
+    "north": "cricketsperipherals:block/hdd_front_off",
+    "south": "cricketsperipherals:block/hdd_side",
+    "east": "cricketsperipherals:block/hdd_side",
+    "west": "cricketsperipherals:block/hdd_side",
+    "particle": "cricketsperipherals:block/hdd_side"
+  }
+}

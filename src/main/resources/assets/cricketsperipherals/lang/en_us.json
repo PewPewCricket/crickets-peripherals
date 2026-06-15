@@ -1,0 +1,10 @@
+{
+  "itemGroup.cricketsperipherals": "Cricket's Peripherals",
+  "block.cricketsperipherals.hard_drive": "Hard Drive",
+  "block.cricketsperipherals.data_coprocessor": "Data Coprocessor",
+
+  "cricketsperipherals.configuration.title": "Cricket's Peripherals Configs",
+  "cricketsperipherals.configuration.section.cricketsperipherals.common.toml": "Cricket's Peripherals Configs",
+  "cricketsperipherals.configuration.section.cricketsperipherals.common.toml.title": "Cricket's Peripherals Configs",
+  "cricketsperipherals.configuration.hddSize": "Hard Drive Capacity"
+}

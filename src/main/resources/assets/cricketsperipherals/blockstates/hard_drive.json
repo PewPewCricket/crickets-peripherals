@@ -1,0 +1,18 @@
+{
+  "variants": {
+    "state=off,facing=north":   { "model": "cricketsperipherals:block/hard_drive_off" },
+    "state=off,facing=east":    { "model": "cricketsperipherals:block/hard_drive_off", "y": 90 },
+    "state=off,facing=south":   { "model": "cricketsperipherals:block/hard_drive_off", "y": 180 },
+    "state=off,facing=west":    { "model": "cricketsperipherals:block/hard_drive_off", "y": 270 },
+
+    "state=idle,facing=north":  { "model": "cricketsperipherals:block/hard_drive_idle" },
+    "state=idle,facing=east":   { "model": "cricketsperipherals:block/hard_drive_idle", "y": 90 },
+    "state=idle,facing=south":  { "model": "cricketsperipherals:block/hard_drive_idle", "y": 180 },
+    "state=idle,facing=west":   { "model": "cricketsperipherals:block/hard_drive_idle", "y": 270 },
+
+    "state=active,facing=north": { "model": "cricketsperipherals:block/hard_drive_active" },
+    "state=active,facing=east":  { "model": "cricketsperipherals:block/hard_drive_active", "y": 90 },
+    "state=active,facing=south": { "model": "cricketsperipherals:block/hard_drive_active", "y": 180 },
+    "state=active,facing=west":  { "model": "cricketsperipherals:block/hard_drive_active", "y": 270 }
+  }
+}
