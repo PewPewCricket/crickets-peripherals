@@ -11,6 +11,7 @@
       "entries": [
         {
           "type": "minecraft:item",
+          "name": "cricketsperipherals:hard_drive",
           "functions": [
             {
               "function": "minecraft:copy_components",
@@ -19,8 +20,7 @@
               ],
               "source": "block_entity"
             }
-          ],
-          "name": "cricketsperipherals:hard_drive"
+          ]
         }
       ],
       "rolls": 1.0

@@ -191,26 +191,6 @@ public class PeripheralDataCoprocessor implements IPeripheral {
     }
 
     @LuaFunction
-    public MethodResult encode64(IArguments args) throws LuaException {
-        ByteBuffer data = args.getBytes(0);
-        byte[] bytes = new byte[data.remaining()];
-        data.get(bytes);
-
-        return MethodResult.of(Base64.getEncoder().encodeToString(bytes));
-    }
-
-    @LuaFunction
-    public MethodResult decode64(IArguments args) throws LuaException {
-        String encoded = args.getString(0);
-
-        try {
-            return MethodResult.of(ByteBuffer.wrap(Base64.getDecoder().decode(encoded)));
-        } catch (IllegalArgumentException e) {
-            throw new LuaException(e.getMessage());
-        }
-    }
-
-    @LuaFunction
     public MethodResult uuid() {
         return MethodResult.of(UUID.randomUUID().toString());
     }

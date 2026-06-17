@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:stone"
+    },
+    "A": {
+      "item": "minecraft:diamond"
+    },
+    "B": {
+      "item": "computercraft:disk_drive"
+    },
+    "C": {
+      "item": "minecraft:iron_block"
+    }
+  },
+  "pattern": [
+    "#A#",
+    "#B#",
+    "#C#"
+  ],
+  "result": {
+    "count": 1,
+    "id": "cricketsperipherals:hard_drive"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:stone"
+    },
+    "A": {
+      "item": "minecraft:comparator"
+    },
+    "B": {
+      "item": "computercraft:computer_normal"
+    },
+    "C": {
+      "item": "minecraft:redstone_block"
+    }
+  },
+  "pattern": [
+    "#A#",
+    "#B#",
+    "#C#"
+  ],
+  "result": {
+    "count": 1,
+    "id": "cricketsperipherals:data_coprocessor"
+  }
+}

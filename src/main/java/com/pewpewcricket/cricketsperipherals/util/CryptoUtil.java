@@ -7,7 +7,7 @@ import javax.crypto.spec.GCMParameterSpec;
 import java.nio.ByteBuffer;
 import java.security.*;
 
-public class CryptoUtil {
+public final class CryptoUtil {
     private static final String TRANSFORMATION = "AES/GCM/NoPadding";
     private static final int AES_KEY_SIZE = 256;
     private static final int IV_LENGTH_BYTES = 12;
